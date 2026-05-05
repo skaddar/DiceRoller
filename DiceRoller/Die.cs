@@ -4,7 +4,7 @@ namespace DiceRoller
 {
     public abstract class Die
     {
-        protected Random rng = new Random();
+        public Random rng = new Random();
 
         public int LastRoll { get; set; }
         public int TotalRolls { get; set; }
